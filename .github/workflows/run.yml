@@ -3,7 +3,7 @@ name: 签到+简单任务
 on:
   # github定时工作流，但时间不是东八区。东0区，北京时间减8小时。
   schedule:
-    - cron: '19 21,6 * * *'
+    - cron: '18 21,6 * * *'
   # 点击star收藏，则手动执行此github工作流
   watch:
     types: started
